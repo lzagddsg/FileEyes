@@ -1,4 +1,5 @@
 # FileEyes
+## SEE FILEEYES_ALL_COLLECTION
 ## What is FileEyes? 
 FileEyes is a simple file-reader. It is just like `VSCode`, `Sublimetext3` and other file editors.  
 ## What's in this project? 
