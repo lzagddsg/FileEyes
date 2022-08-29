@@ -1,6 +1,6 @@
 /*
  * Name: FileEyes
- * Version: 1.0
+ * Version: 1.1
  * Author: Lzagddsg
  * PLZ DO NOT CARRY IT TO ANOTHER PROJECT! [doge]
  */
@@ -73,7 +73,9 @@ public class Gui {
 			@Override
 			public void actionPerformed(ActionEvent e) {
                 // 自动更改项目名称
-                frame.setTitle("FileEyes - " + openDlg.getFile());
+				if (openDlg.getFile() != null) {
+                	frame.setTitle("FileEyes - " + openDlg.getFile());
+				}
 				// TODO 自动生成的方法存根
 				openDlg.setVisible(true);
 				String fileName = openDlg.getDirectory() + openDlg.getFile();
